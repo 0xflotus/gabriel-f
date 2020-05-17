@@ -1,0 +1,22 @@
+{
+  "name": "gabriel-f",
+  "author": {
+    "name": "0xflotus"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/0xflotus/gabriel-f"
+  },
+  "version": "1.0.0",
+  "description": "A package to convert celsius to fahrenheit",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "typescript": "^3.9.2"
+  }
+}
