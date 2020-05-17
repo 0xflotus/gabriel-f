@@ -3,5 +3,5 @@ export function fahrenheit(celsius: number): number {
 }
 
 export function celsius(fahrenheit: number): number {
-    return Number(((fahrenheit - (0x1 << 0x5)) * (0x5 / 0x9)).toFixed(2));
+    return (fahrenheit - (0x1 << 0x5)) * (0x5 / 0x9);
 }

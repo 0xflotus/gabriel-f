@@ -2,7 +2,7 @@ const { fahrenheit, celsius } = require('../dist/index');
 
 test('Conversion works', () => {
     expect(fahrenheit(1)).toBe(33.8);
-    expect(celsius(1)).toBe(-17.22);
+    expect(celsius(1)).toBe(-17.22222222222222);
 });
 
 test('error works', () => {
